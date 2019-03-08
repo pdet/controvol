@@ -1,0 +1,71 @@
+commit c02b95d68fa09b80a2943b0463cd60ac9e23734f
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Sat Oct 25 11:17:13 2014 +0200
+
+    Release version 5
+
+commit 5473d065ea9d3b614332bef82dc524f6300eb1de
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Sat Oct 25 11:16:45 2014 +0200
+
+    Added the getter/setter for the new attribute
+
+commit 3e0712f0c0b21b46d7a7daa4b6a92a898c87b23a
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Sat Oct 25 11:15:44 2014 +0200
+
+    Introduced a new attribute (type)
+
+commit a68ef6ce47db4f5a27fe0eb41cafb0669a69fe33
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Sat Oct 25 11:14:45 2014 +0200
+
+    Re-typed an attribute. Release 4
+
+commit 11756ea95fc08e634e03497b667b654961e1d127
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Sat Oct 25 11:13:18 2014 +0200
+
+    Forgot the annotation AlsoLoad.
+
+commit e2a58f1e623fc546ed6e3c4c7ebca0beea690be5
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Sat Oct 25 11:11:33 2014 +0200
+
+    Stable version. Release 3
+
+commit ed3248321d840972cac30f3e9bb4e60fda1f4242
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Sat Oct 25 11:09:52 2014 +0200
+
+    Renamed the methods and variables accordingly
+
+commit c397fdb969c62db61eeef0c9ab87228e28b49010
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Sat Oct 25 11:09:15 2014 +0200
+
+    Renamed an attribute
+
+commit 82fb69a650bf697eec5de9c0934804c9567148d9
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Thu Oct 23 16:36:32 2014 +0200
+
+    I added some documentation
+
+commit d7c1959571e6ff21680be3e0025966ee895fc328
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Thu Oct 23 16:34:34 2014 +0200
+
+    An attribute has been deleted cause it was useless
+
+commit 2d303bce492107d943ef826b00fc028028d6cc08
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Thu Oct 23 16:17:44 2014 +0200
+
+    Just added a comment in Player
+
+commit 51cc1612fe65a9804b84c68cee0bc2d25a5b6944
+Author: Thomas Cerqueus <thomas.cerqueus@ucd.ie>
+Date:   Thu Oct 23 16:13:13 2014 +0200
+
+    Added the files

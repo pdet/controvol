@@ -1,0 +1,13 @@
+<!ELEMENT application (entity)*>
+<!ATTLIST application version CDATA #IMPLIED>
+<!ATTLIST application location CDATA #REQUIRED>
+
+<!ELEMENT entity (attribute)*>
+<!ATTLIST entity name CDATA #REQUIRED>
+<!ATTLIST entity superName CDATA #IMPLIED>
+
+<!ELEMENT attribute (legacyName)*>
+<!ATTLIST attribute name CDATA #REQUIRED>
+<!ATTLIST attribute type CDATA #REQUIRED>
+<!ATTLIST attribute line CDATA #REQUIRED>
+<!ELEMENT legacyName (#PCDATA)>

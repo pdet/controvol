@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application location="/Users/Thomas/git/player/" version="2">
+  <entity name="com.example.player.Player">
+    <attribute name="name" type="java.lang.String" line="15" />
+    <attribute name="rank" type="java.lang.Integer" line="16" />
+    <attribute name="value" type="java.lang.Float" line="17" />
+  </entity>
+</application>

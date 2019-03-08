@@ -1,0 +1,93 @@
+Script
+-------------------------------------
+Motivation - Long version
+-------------------------------------
+Version 0
+- mvn clean install
+- mvn appengine:devserver
+- Add some data
+- Retrieve some data
+
+Version 1 (the first schema evolution)
+- Modify entity Player in
+-- rename attribute level to rank
+-- change type of score from Double to Integer
+-- drop attribute type
+- mvn install  (NO CLEAN this time to avoid purging data)
+- mvn appengine:devserver
+- Add some data
+- Retrieve some new data
+- Retrieve some legacy data
+-- show data loss on rank
+-- show precision loss on score
+-- show that attribute type was gone (due to its suppression)
+
+Version 2 (the second schema evolution)
+- Modify entity Player
+-- reintroduce attribute type with new method call setType(Integer score)
+-- reintroduce the method call of the proper typing class
+-- reintroduce the proper jsp response
+- mvn install  (NO CLEAN this time to avoid purging data)
+- mvn appengine:devserver
+- Add some data
+- Retrieve some new data
+- Retrieve some legacy data
+-- show runtime error (legacy Version 1)
+-- show semantic error (legacy Version 0)
+-- show data loss on rank  (legacy Version 0)
+-- show precision loss on score  (legacy Version 0)
+I
+-------------------------------------
+Motivation - Short version
+-------------------------------------
+Version 0
+- mvn clean install
+- mvn appengine:devserver
+- Add some data
+- Retrieve some data
+
+Version 1 (the first schema evolution)
+- Modify entity Player 
+-- rename attribute level to rank
+- mvn install  (NO CLEAN this time to avoid purging data)
+- mvn appengine:devserver
+- Add some data
+- Retrieve some new data
+- Retrieve some legacy data
+-- show data loss on rank
+-- reinsert some data
+-- show object store for gone data 
+
+Version 2 (with @AlsoLoad)
+- Modify entity Player
+-- include @AlsoLoad by hand to show life-cycle annotations
+- mvn install  (NO CLEAN this time to avoid purging data)
+- mvn appengine:devserver
+- Add some data
+- Retrieve some legacy data
+- Update legacy (DON'T RETREIVE **)
+- Show lazy migration replacing old value
+
+** One important note: in this example, if both the affects field and the old componentName field exist, Morphia will throw an exception, so don’t try using this for anything other than deprecating fields, or perhaps populating a single field with two mutually exclusive properties.
+
+-------------------------------------
+ControVol  (java project)
+-------------------------------------
+Open runtime-EclipseApplication
+Open "player" app
+Show class "Player.java"
+Show attributes
+Rename attribute level (like poster)
+Apply AlsoLoad fix
+Change String type for Integer
+Apply Error fix
+Drop attribute name
+Apply Ignore fix
+
+
+-------------------------------------
+ControVol Agenda 
+-------------------------------------
+- more evolution operations (??)
+- generate migration code
+- cover other object mappers, such as Morphia, Slim3

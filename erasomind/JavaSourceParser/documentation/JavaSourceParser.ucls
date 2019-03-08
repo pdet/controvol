@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <interface id="1" language="java" name="com.maximilian_boehm.javasourceparser.access.struct.JPField" 
+    project="JavaSourceParser" 
+    file="/JavaSourceParser/src/com/maximilian_boehm/javasourceparser/access/struct/JPField.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="112" width="262" x="329" y="341"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" language="java" name="com.maximilian_boehm.javasourceparser.access.struct.base.JPAnnotation" 
+    project="JavaSourceParser" 
+    file="/JavaSourceParser/src/com/maximilian_boehm/javasourceparser/access/struct/base/JPAnnotation.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="774" y="397"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="com.maximilian_boehm.javasourceparser.access.struct.JPClass" 
+    project="JavaSourceParser" 
+    file="/JavaSourceParser/src/com/maximilian_boehm/javasourceparser/access/struct/JPClass.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="460" y="229"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="com.maximilian_boehm.javasourceparser.access.JPHome" 
+    project="JavaSourceParser" file="/JavaSourceParser/src/com/maximilian_boehm/javasourceparser/access/JPHome.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="98" width="269" x="326" y="35"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.maximilian_boehm.javasourceparser.access.JPAccessFactory" 
+    project="JavaSourceParser" 
+    file="/JavaSourceParser/src/com/maximilian_boehm/javasourceparser/access/JPAccessFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="159" y="85"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="com.maximilian_boehm.javasourceparser.access.struct.base.JPAnnotationHolder" 
+    project="JavaSourceParser" 
+    file="/JavaSourceParser/src/com/maximilian_boehm/javasourceparser/access/struct/base/JPAnnotationHolder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="288" x="632" y="169"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="7">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="8" name="home">        
+        <position height="18" width="39" x="1119" y="55"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="1">        
+        <position height="16" width="25" x="1058" y="88"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

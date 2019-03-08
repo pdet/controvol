@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application location="/Users/eduardo/Documents/workspace_luna/dataevol/code/plugin/com.example.helloworld/data/lib/player-v2.jar" version="2">
+  <entity name="com.example.objectify.player.Player">
+    <attribute name="name" type="java.lang.String" line="7" />
+    <attribute name="rank" type="java.lang.Integer" line="8" />
+    <attribute name="value" type="java.lang.Float" line="9" />
+  </entity>
+</application>

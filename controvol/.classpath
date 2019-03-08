@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src_git-access"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/access-git.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/commons-configuration-1.6.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/javabdd-1.0b2.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/jdd_104.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/jdom-2.0.5.jar" sourcepath="/Users/Thomas/.m2/repository/org/jdom/jdom2/2.0.5/jdom2-2.0.5-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/junit.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/objectify-4.0b3.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.core.contenttype_3.4.1.R35x_v20090826-0451.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.core.jobs_3.4.100.v20090429-1800.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.core.resources_3.5.2.R35x_v20091203-1235.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.core.runtime_3.5.0.v20090525.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.equinox.common_3.5.1.R35x_v20090807-1100.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.equinox.preferences_3.2.301.R35x_v20091117.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.jdt.core_3.5.2.v_981_R35x.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.jface.text_3.5.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.jface.text.source_3.7.1.r371_v20110825-0800.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.jgit-3.3.1.201403241930-r.jar" sourcepath="/Users/Thomas/.m2/repository/org/eclipse/jgit/org.eclipse.jgit/3.3.1.201403241930-r/org.eclipse.jgit-3.3.1.201403241930-r-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.osgi_3.5.2.R35x_v20100126.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.text_3.5.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.ui.editors-3.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.ui.editors.source_3.7.0.v20110517-0800.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/org.eclipse.ui.workbench.texteditor-3.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/Thomas/git/dataevol/code/lib/selenium-server-standalone-2.33.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

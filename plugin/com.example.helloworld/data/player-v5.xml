@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application location="/Users/Thomas/git/dataevol/plugin/com.example.helloworld/data/lib/player-v5.jar" version="5">
+  <entity name="com.example.objectify.player.Player">
+    <attribute name="name" type="java.lang.String" line="7" />
+    <attribute name="rank" type="java.lang.Integer" line="8" />
+    <attribute name="score" type="java.lang.Integer" line="9">
+      <legacyName>value</legacyName>
+    </attribute>
+    <attribute name="type" type="java.lang.String" line="15" />
+  </entity>
+</application>
